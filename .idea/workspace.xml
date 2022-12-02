@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cca21dc-6d78-4097-9547-b93219da7c2d" name="Changes" comment="" />
+    <list default="true" id="6cca21dc-6d78-4097-9547-b93219da7c2d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Control/SalaryControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Control/SaveDataControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Abstract/PersonList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IOrderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IPersonList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/ISalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IWorkPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Costumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/CostumerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/WorkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/WorkPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +38,62 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="xml" />
+        <option value="UML Class" />
+        <option value="editable-svg" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/dev/kay/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Person.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/WorkPerson.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IDP4ma5VVlNbV2i1KJZRtCJz4k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/JavaProject/FastFoodOOP/src/main/java/dev/kay&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/simpleUML_4493.jar&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.kay.Model.Interface" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="All in FastFoodOOP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FastFoodOOP" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in FastFoodOOP" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

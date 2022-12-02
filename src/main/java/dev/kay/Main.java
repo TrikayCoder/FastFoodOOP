@@ -1,5 +1,9 @@
-package dev.kay;public class Main {
+package dev.kay;
+
+import dev.kay.Model.Interface.IPerson;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
     }
 }
