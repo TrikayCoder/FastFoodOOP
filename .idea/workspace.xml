@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cca21dc-6d78-4097-9547-b93219da7c2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Control/SalaryControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Control/SaveDataControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Abstract/PersonList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IOrderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IPersonList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/ISalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IWorkPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Costumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/CostumerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Salary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/WorkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/WorkPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="6cca21dc-6d78-4097-9547-b93219da7c2d" name="Changes" comment="Beta Human Module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +83,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669712995411</updated>
     </task>
+    <task id="LOCAL-00001" summary="Beta Human Module">
+      <created>1669992798251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669992798251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Beta Human Module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beta Human Module" />
   </component>
 </project>
