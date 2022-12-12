@@ -1,5 +1,7 @@
 package dev.kay.Model.Interface;
 
+import java.util.ArrayList;
+
 public interface IPersonList {
     public static final int NONE_VALUE = -999;
 
@@ -31,4 +33,10 @@ public interface IPersonList {
      * @return Person
      */
     public IPerson getPerson(int position);
+
+    public ArrayList<IPerson> getPersonArrayList();
+
+    public void setPersonArrayList(ArrayList<IPerson> personArrayList);
+
+    public abstract void saveData();
 }

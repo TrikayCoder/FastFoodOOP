@@ -1,33 +1,37 @@
 package dev.kay.Model.Model;
 
-import dev.kay.Model.Interface.IFood;
-import dev.kay.Model.Interface.IOrderList;
-
 import java.util.ArrayList;
 
-public class OrderList implements IOrderList {
-    @Override
-    public void generateOrder(ArrayList<IFood> iFoods) {
+public class OrderList{
+   private FoodList foodList;
 
+   private ArrayList<Food> foodOrder;
+
+    public ArrayList<Food> getFoodOrder() {
+        return foodOrder;
     }
 
-    @Override
-    public ArrayList<IFood> getOrder() {
-        return null;
+    public void setFoodOrder(ArrayList<Food> foodOrder) {
+        this.foodOrder = foodOrder;
     }
 
-    @Override
-    public void addOrder(IFood iFood) {
-
+    public FoodList getFoodList() {
+        return foodList;
     }
 
-    @Override
-    public void removeOrder(IFood iFood) {
-
+    public void setFoodList(FoodList foodList) {
+        this.foodList = foodList;
     }
 
-    @Override
-    public void clearOrder() {
-
+    public OrderList() {
+        foodList = new FoodList();
+        foodOrder = new ArrayList<>();
     }
+
+    public OrderList(FoodList foodList) {
+        this.foodList = foodList;
+        foodOrder = new ArrayList<>();
+    }
+
+
 }

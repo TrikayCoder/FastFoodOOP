@@ -5,10 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cca21dc-6d78-4097-9547-b93219da7c2d" name="Changes" comment="Beta Human Module">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/OrderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Control/ReadDataControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/FoodList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/View/Menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IOrderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IOrderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/FileFood.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/Fruit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/Meat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/RawMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Control/SalaryControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Control/SaveDataControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Control/SaveDataControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Abstract/PersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Abstract/PersonList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Food/FoodList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Food/ThucAn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Food/ThucUong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Food/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IContract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IDiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IOrderList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IPersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IPersonList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/ISalary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IWorkPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IStaff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/InterFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/InterList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Costumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/CostumerList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/OrderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/OrderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Salary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/WorkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/WorkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/WorkPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/RawMaterial/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/RawMaterial/Meat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/RawMaterial/RawMaterial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/RawMaterial/RawMaterialList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +57,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FastFoodOOP" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,10 +92,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/dev/kay/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Person.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/WorkPerson.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Staff.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2IDP4ma5VVlNbV2i1KJZRtCJz4k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,7 +116,10 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;D:/JavaProject/FastFoodOOP/src/main/java/dev/kay&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/simpleUML_4493.jar&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;gradle.compiler&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -62,7 +127,20 @@
       <recent name="dev.kay.Model.Interface" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.kay.Main" />
+      <module name="FastFoodOOP.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.kay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in FastFoodOOP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastFoodOOP" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,6 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in FastFoodOOP" />
       </list>
     </recent_temporary>

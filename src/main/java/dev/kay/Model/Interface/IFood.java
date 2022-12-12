@@ -1,12 +1,21 @@
-package Interface;
-
-import java.io.IOException;
+package dev.kay.Model.Interface;
 
 public interface IFood {
-    public void ExportList();
-	public void Add();	
-	public void Remove();
-	public void Edit();
-    public void ReadFile() throws IOException;
-	public void WriteFile() throws IOException;
+    public String getName();
+
+    public void setName(String name);
+
+    public String getId();
+
+    public void setId(String id);
+
+    public String getType();
+
+    public void setType(String type);
+
+    public int getPrice();
+
+    public void setPrice(int price);
+
+
 }

@@ -9,6 +9,11 @@ public class Person implements IPerson {
     private int level;
     private String address;
 
+    private String pass;
+
+    private String userName;
+
+
     public String getName() {
         return name;
     }
@@ -61,4 +66,33 @@ public class Person implements IPerson {
     }
 
 
+    @Override
+    public int gteSalary() {
+        return 0;
+    }
+
+    @Override
+    public void setSalary(int salary) {
+
+    }
+
+    @Override
+    public String getPass() {
+        return this.pass;
+    }
+
+    @Override
+    public String getUsername() {
+        return this.userName;
+    }
+
+    @Override
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
+
+    @Override
+    public void setUsername(String username) {
+        this.userName = username;
+    }
 }

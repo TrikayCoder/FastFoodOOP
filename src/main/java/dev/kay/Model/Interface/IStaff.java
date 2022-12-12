@@ -1,6 +1,6 @@
 package dev.kay.Model.Interface;
 
-public interface IWorkPerson {
+public interface IStaff {
     /**
      * This is position work of {@link IPerson#STAFF} level
      */
@@ -23,25 +23,8 @@ public interface IWorkPerson {
      */
     public static final int POSITION_MANAGE_STORE = 5;
 
-    /**
-     * This is position work of {@link IPerson#MANAGE} level
-     */
-    public static final int POSITION_MANAGE_GROUND_STORE = 6;
 
-    /**
-     * This is position work of {@link IPerson#MANAGE} level
-     */
-    public static final int POSITION_MANAGE_ALL_GROUND_STORE = 7;
 
-    /**
-     * Solve final salary which Staff can get
-     * @param isalary Salary of staff
-     * @return final salary
-     */
-    public int solveFinalSalary(ISalary isalary);
 
-    public void isGenerateContract(boolean isGenerate);
-
-    public void isCancelContract(boolean isCancel);
 
 }

@@ -1,7 +1,9 @@
 package dev.kay.Model.Abstract;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import dev.kay.Model.Interface.IPerson;
 import dev.kay.Model.Interface.IPersonList;
+import dev.kay.Model.Model.WorkList;
 
 import java.util.ArrayList;
 
