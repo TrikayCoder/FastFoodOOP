@@ -4,49 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cca21dc-6d78-4097-9547-b93219da7c2d" name="Changes" comment="Beta Human Module">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Control/ReadDataControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/FoodList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/View/Menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6cca21dc-6d78-4097-9547-b93219da7c2d" name="Changes" comment="Bate Projcet">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/ICustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/CustomerList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/FileFood.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/Fruit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/Meat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/RawMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Control/SalaryControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Control/ReadDataControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Control/ReadDataControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Control/SaveDataControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Control/SaveDataControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Abstract/PersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Abstract/PersonList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Food/FoodList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Food/ThucAn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Food/ThucUong.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Food/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IContract.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IDiscount.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IOrderList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IPerson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IPersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IPersonList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/ISalary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IWorkPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IStaff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/InterFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/InterList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Contract.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Costumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/CostumerList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IStaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Interface/IStaff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/FoodList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/FoodList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/OrderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/OrderList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Salary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/WorkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/WorkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/WorkPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/RawMaterial/Fruit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/RawMaterial/Meat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/RawMaterial/RawMaterial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/RawMaterial/RawMaterialList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/Model/Model/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kay/View/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kay/View/Menu/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669993544829</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bate Projcet">
+      <created>1670867258340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670867258340</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +173,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Beta Human Module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beta Human Module" />
+    <MESSAGE value="Bate Projcet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bate Projcet" />
   </component>
 </project>

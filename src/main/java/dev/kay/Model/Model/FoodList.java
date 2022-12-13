@@ -2,6 +2,7 @@ package dev.kay.Model.Model;
 
 
 import dev.kay.Control.ReadDataControl;
+import dev.kay.Control.SaveDataControl;
 
 import java.util.ArrayList;
 
@@ -27,5 +28,9 @@ public class FoodList {
 
     private void initFoods() {
        foodArrayList = ReadDataControl.readFoodList();
+    }
+
+    public void saveData(){
+        SaveDataControl.saveFoodList(FoodList.this);
     }
 }

@@ -168,6 +168,7 @@ public class Staff extends Person implements IStaff {
             System.out.println("2: Them nhan vien");
             System.out.println("3: Xoa nhan vien");
             System.out.println("4: Chinh sua thong tin nhan vien");
+            System.out.println("5: Tim kiem nhan vien");
             System.out.print("Type: ");
             int mode = new Scanner(System.in).nextInt();
             if(mode == 1){
@@ -176,10 +177,46 @@ public class Staff extends Person implements IStaff {
                 addNewStaff(personStaffArrayList);
             }else if(mode == 3){
                 removeStaff(personStaffArrayList);
-            }else if(mode == 4){
+            }else if(mode == 4) {
                 changeInfoStaff(personStaffArrayList);
+            }else if(mode == 5){
+                serchStaff(personStaffArrayList);
             }else if(mode == -1){
                 return;
+            }
+        }
+    }
+
+    private void serchStaff(ArrayList<IPerson> personStaffArrayList) {
+        ArrayList<IPerson> personArrayListSearch = new ArrayList<>();
+        personArrayListSearch.addAll(personStaffArrayList);
+        while (true){
+            System.out.println("***************Search Staff - Exit[Exit]****************");
+            for(int i=0; i < personArrayListSearch.size(); i++){
+                Staff staff = (Staff) personArrayListSearch.get(i);
+                System.out.println(i + 1 + ": " + staff.getName() + ", " +
+                        staff.getAge() + ", " +
+                        staff.getGender()+ ", " +
+                        staff.getAddress()+ ", " +
+                        staff.getSalary());
+            }
+            System.out.print("Type: ");
+            String searchStr = new Scanner(System.in).nextLine();
+            System.out.println("Your serch keyword: " + searchStr);
+            if(searchStr.equals("Exit")) {
+                return;
+            }else if(searchStr.equals("")){
+                personArrayListSearch.addAll(personStaffArrayList);
+            }else{
+                personArrayListSearch.clear();
+                for(int i=0; i< personStaffArrayList.size(); i++){
+                    Staff staff = (Staff) personStaffArrayList.get(i);
+                    if(staff.getName().contains(searchStr) ||
+                            staff.getAddress().contains(searchStr) ||
+                            String.valueOf(staff.getAge()).contains(searchStr)){
+                        personArrayListSearch.add(personStaffArrayList.get(i));
+                    }
+                }
             }
         }
     }
@@ -308,6 +345,10 @@ public class Staff extends Person implements IStaff {
         while (true){
             System.out.println("************Add New Staff************");
             IPerson person = new Staff();
+            System.out.print("Nhap UserName: ");
+            person.setUsername(new Scanner(System.in).nextLine());
+            System.out.print("Nhap PassWord");
+            person.setPass(new Scanner(System.in).nextLine());
             System.out.print("Nhap Ten Nhan Vien: ");
             person.setName(new Scanner(System.in).nextLine());
             while (true){
@@ -392,6 +433,7 @@ public class Staff extends Person implements IStaff {
             System.out.println("2, Them Food");
             System.out.println("3, Xoa Food");
             System.out.println("4, Chinh sua thong tin Food");
+            System.out.println("5, Tim kiem food");
             int mode = new Scanner(System.in).nextInt();
             if(mode == -1){
                 return;
@@ -403,14 +445,89 @@ public class Staff extends Person implements IStaff {
                 removeFood(foodList);
             }else if(mode == 4){
                 changeInfoFood(foodList);
+            }else if(mode == 5){
+                searchFood(foodList);
             }
         }
 
 
     }
 
+    private void searchFood(FoodList foodList) {
+        FoodList foodListSearch = new FoodList();
+        while (true){
+            System.out.println("***************Search Food - Exit[Exit]****************");
+            for(int i=0; i<foodListSearch.getFoodArrayList().size(); i++){
+                Food food = foodListSearch.getFoodArrayList().get(i);
+                System.out.println( i+1 +": " + food.getId() + ", " + food.getName() + ", " + food.getType() + " - " + food.getPrice() + "vnd");
+            }
+            System.out.print("Type: ");
+            String searchStr = new Scanner(System.in).nextLine();
+            System.out.println("Your serch keyword: " + searchStr);
+            if(searchStr.equals("Exit")) {
+                return;
+            }else if(searchStr.equals("")){
+                foodListSearch.getFoodArrayList().addAll(foodList.getFoodArrayList());
+            }else{
+                foodListSearch.getFoodArrayList().clear();
+                for(int i=0; i< foodList.getFoodArrayList().size(); i++){
+                    Food food = foodList.getFoodArrayList().get(i);
+                    if(food.getName().contains(searchStr) ||
+                            food.getType().contains(searchStr) ||
+                            food.getId().contains(searchStr) ||
+                    String.valueOf(food.getPrice()).contains(searchStr)){
+                        foodListSearch.getFoodArrayList().add(food);
+                    }
+                }
+            }
+        }
+    }
+
     //TODO WRITE NHANH KO CHET ME GIO DKM
     private void changeInfoFood(FoodList foodList) {
+        while (true){
+            System.out.println("************Chance Info Food - Exit [-1]**************");
+            for(int i=0; i<foodList.getFoodArrayList().size(); i++){
+                Food food = foodList.getFoodArrayList().get(i);
+                System.out.println( i+1 +": " + food.getId() + ", " + food.getName() + ", " + food.getType() + " - " + food.getPrice() + "vnd");
+            }
+            System.out.print("Chon vi tri cua food ban muon thay doi: ");
+            int index = new Scanner(System.in).nextInt() - 1;
+            if(index >= 0 && index < foodList.getFoodArrayList().size()){
+                Food food = changeInfoFoodHelper(foodList.getFoodArrayList().get(index));
+                if(food != null){
+                   foodList.getFoodArrayList().set(index, food);
+                }
+            }else if (index == -1){
+                return;
+            }
+        }
+
+    }
+
+    private Food changeInfoFoodHelper(Food food) {
+        while (true){
+            System.out.println("**********Change Info Food Helper - Exit[-1] - Save And Exit [-2]**********");
+            System.out.println("1, Name");
+            System.out.println("2, Type");
+            System.out.println("3, Price");
+            System.out.print("Type: ");
+            int choose = new Scanner(System.in).nextInt();
+            if (choose == 1){
+                System.out.print("Nhap ten food: ");
+                food.setName(new Scanner(System.in).nextLine());
+            }else if(choose == 2){
+                System.out.print("Nhap type food: ");
+                food.setType(new Scanner(System.in).nextLine());
+            }else if(choose == 3){
+                System.out.print("Nhap price food: ");
+                food.setPrice(new Scanner(System.in).nextInt());
+            }else if(choose == -1){
+                return null;
+            }else if(choose == -2){
+                return food;
+            }
+        }
     }
 
     private void removeFood(FoodList foodList) {
@@ -501,9 +618,9 @@ public class Staff extends Person implements IStaff {
             workList.getPersonArrayList().add(person);
         }
         System.out.println("Saving Staff Normal List...");
-        SaveDataControl.saveWorkList(workList);
+        workList.saveData();
         System.out.println("Saving Food List...");
-        SaveDataControl.saveFoodList(foodList);
+        foodList.saveData();
         System.out.println("Completed Saving! :[]");
         return;
     }

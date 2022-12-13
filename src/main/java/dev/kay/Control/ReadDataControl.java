@@ -2,9 +2,7 @@ package dev.kay.Control;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import dev.kay.Model.Interface.IPerson;
-import dev.kay.Model.Model.Food;
-import dev.kay.Model.Model.Staff;
-import dev.kay.Model.Model.WorkList;
+import dev.kay.Model.Model.*;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -52,5 +50,26 @@ public class ReadDataControl {
         } catch (Exception e) {
         }
         return foodArrayList;
+    }
+
+    public static ArrayList<IPerson> readCustomerList() {
+        ArrayList<IPerson> customerArrayList = new ArrayList<>();
+        try {
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("src\\file\\CustomerList.txt"));
+            String s = null;
+            while ((s = bufferedReader.readLine()) != null) {
+                String[] data = s.split(",");
+                IPerson customer = new Customer();
+               customer.setName(data[0]);
+               customer.setAge(Integer.parseInt(data[1]));
+               customer.setGender(Integer.parseInt(data[2]));
+               customer.setAddress(data[3]);
+               customer.setPass(data[4]);
+               customer.setUsername(data[5]);
+               customerArrayList.add(customer);
+            }
+        } catch (Exception e) {
+        }
+        return customerArrayList;
     }
 }

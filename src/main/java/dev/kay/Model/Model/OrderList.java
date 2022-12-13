@@ -32,6 +32,4 @@ public class OrderList{
         this.foodList = foodList;
         foodOrder = new ArrayList<>();
     }
-
-
 }
